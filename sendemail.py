@@ -26,7 +26,7 @@ msg = MIMEText (msg)
 msg['Subject'] = subject
 msg['From'] = 'jharishav99@gmail.com'
 msg['To'] = 'jharishav99@gmail.com'
-recipients = ['tinchugaming99@gmail.com']
+recipients = ['jharishav99@gmail.com']
 
 server.sendmail('jharishav99@gmail.com',recipients,msg.as_string())
 
